@@ -12,10 +12,8 @@ function saldoVitorias (vitorias, derrotas) {
 
 
     if (quantidadevitorias <10) { console.log ( "nivel Ferro" )
-            } 
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            else if (vitoriasTotal >=11 & vitoriasTotal <=20) { return nivel= "Bronze"
-            } 
+            }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               else if (vitoriasTotal >=11 & vitoriasTotal <=20) { return nivel= "Bronze"
+        }
 
     else if (quantidadevitorias >=21 && quantidadevitorias<=50) { console.log ("nivel Prata" )              
             }
@@ -27,7 +25,6 @@ function saldoVitorias (vitorias, derrotas) {
             }
 
     else if (quantidadevitorias >=91 && quantidadevitorias <=100) { console.log  ("nivel Lendário") 
-                
             }
 
     else if (quantidadevitorias >=101) { console.log  (nivel= "nivel Imortal")}
